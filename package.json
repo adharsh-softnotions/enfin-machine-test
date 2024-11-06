@@ -11,8 +11,11 @@
     "seed": "node --loader ts-node/esm src/scripts/seeder.ts"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.1.7",
+    "dayjs": "^1.11.13",
     "ioredis": "^5.4.1",
     "next": "15.0.2",
+    "phosphor-icons": "^1.4.2",
     "react": "19.0.0-rc-02c0e824-20241028",
     "react-dom": "19.0.0-rc-02c0e824-20241028"
   },

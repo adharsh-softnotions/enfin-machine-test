@@ -1,7 +1,11 @@
-export default function Availability() {
+import { AvailabilityChecker } from "@/app/components/availability/availability-checker";
+
+const Availability: React.FC = () => {
     return (
-        <div>
-            Availablity
-        </div>
-    )
-}
+        <>
+           <AvailabilityChecker />
+        </>
+    );
+};
+
+export default Availability;
